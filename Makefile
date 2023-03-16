@@ -15,3 +15,9 @@ brain-gcd:
 	node bin/brain-gcd.js
 brain-prime:
 	node bin/brain-prime.js
+
+lint:
+	npx eslint .
+
+fix:
+	npx eslint . --fix
